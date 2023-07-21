@@ -3,3 +3,7 @@
 
 # python
 .python-version
+__pycache__
+
+# brownie
+build/
