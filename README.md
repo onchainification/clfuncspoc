@@ -46,3 +46,5 @@ yarn lfg
 - https://docs.chain.link/chainlink-functions
 - https://github.com/smartcontractkit/functions-hardhat-starter-kit
 - https://github.com/GalloDaSballo/vested-cvx
+
+![DALL·E 2023-07-23 00 28 48](https://github.com/onchainification/clfuncspoc/assets/2835259/ba8d7844-1b5b-44ad-a481-62a003a80a27)
