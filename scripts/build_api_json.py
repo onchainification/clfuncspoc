@@ -55,6 +55,7 @@ def generate_claims(address):
     Loop over all directories in the latest version of the official Votium
     repository (https://github.com/oo-00/Votium) and build the
     MultiMerkleStash.claimParam[] array for given `address`.
+    Ran in ~44 minutes on 2023-07-22.
     """
     address = web3.toChecksumAddress(address)
 
