@@ -1,6 +1,6 @@
 # title
 
-## steps
+## STEPS
 
 0. TODO: somehow in ci, auto update votium submodule whenever a
     `MerkleRootUpdated` is transmitted by votium's `MultiMerkleStash`
@@ -18,6 +18,34 @@
 
 4. profit
 
-## references
+## SUBGRAPH
+
+- this subgraph can act as a decentralised, open source alternative to solutions host json files as api endpoints (eg jsonbin.io, jsonkeeper.com)
+- current poc is able to read the converted json file in [`data.ts`](json-subgraph-poc/src/data.ts) and convert it to a subgraph entity
+- serialisation of multiple objects should be possible according to the docs (https://www.npmjs.com/package/assemblyscript-json?activeTab=readme)
+- near also added a `includeBytes` into their assemblyscript release which should enable direct reading of `.json` files from disk to memory (https://bounties.gitcoin.co/issue/23514)
+- future work: upload a single json file through cli or ui and have it deployed on the graph's decentralised network
+
+### install
+```
+cd json-subgraph-poc
+yarn
+```
+
+### dev
+```
+yarn codegen && yarn build
+```
+
+### deploy
+```
+yarn lfg
+```
+
+### url
+https://thegraph.com/hosted-service/subgraph/onchainification/json-subgraph-poc
+
+
+## REFERENCES
 - https://docs.chain.link/chainlink-functions
 - https://github.com/GalloDaSballo/vested-cvx

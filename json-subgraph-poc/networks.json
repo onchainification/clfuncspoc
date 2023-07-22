@@ -1,0 +1,8 @@
+{
+  "mainnet": {
+    "MultiMerkleStash": {
+      "address": "0x378Ba9B73309bE80BF4C2c027aAD799766a7ED5A",
+      "startBlock": 17669387
+    }
+  }
+}

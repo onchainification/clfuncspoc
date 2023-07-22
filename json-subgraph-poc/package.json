@@ -1,0 +1,15 @@
+{
+  "name": "json-subgraph-poc",
+  "license": "UNLICENSED",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --product hosted-service onchainification/json-subgraph-poc",
+    "lfg": "graph codegen && graph build && graph deploy --product hosted-service onchainification/json-subgraph-poc"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "*",
+    "@graphprotocol/graph-ts": "*",
+    "assemblyscript-json": "*"
+  }
+}

@@ -1,0 +1,7 @@
+type ClaimParam @entity {
+  id: Bytes!
+  token: Bytes!
+  index: BigInt!
+  amount: BigInt!
+  # merkleProof: [Bytes!]
+}

@@ -1,0 +1,42 @@
+{
+  "moduleAccess": {
+    "users": [
+      {
+        "id": "1",
+        "firstName": "Nigel",
+        "lastName": "Rees",
+        "age": 23,
+        "gender": "male",
+        "country": "Australia"
+      },
+      {
+        "id": "2",
+        "firstName": "Evelyn",
+        "lastName": "Waugh",
+        "age": 28,
+        "gender": "female",
+        "country": "Indonesia"
+      },
+      {
+        "id": "3",
+        "firstName": "Michelle",
+        "lastName": "White",
+        "age": 27,
+        "gender": "female",
+        "country": "Spain"
+      },
+      {
+        "id": "4",
+        "firstName": "Aaron",
+        "lastName": "Fernandes",
+        "age": 22,
+        "gender": "male",
+        "country": "India"
+      }
+    ],
+    "userPermissions": {
+      "createGrant": true,
+      "editGrant": false
+    }
+  }
+}
