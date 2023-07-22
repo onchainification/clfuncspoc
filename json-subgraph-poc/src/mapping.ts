@@ -42,6 +42,4 @@ export function handleMerkleRootUpdated(event: MerkleRootUpdated): void {
 
         claimParam.save();
     }
-
-    // primArr = <JSON.Arr>JSON.from<i32[]>([42]);
 }
