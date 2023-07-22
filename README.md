@@ -2,19 +2,17 @@
 
 ## STEPS
 
-0. TODO: somehow in ci, auto update votium submodule whenever a
-    `MerkleRootUpdated` is transmitted by votium's `MultiMerkleStash`
-    (0x378Ba9B73309bE80BF4C2c027aAD799766a7ED5A). eg 0x7753669d2e6418aa013bfdaf28f1603f1c6254d6fc03af5bfc397e885e38ea03
+1. run python backend script [`build_api_json`](scripts/build_api_json.py) to consolidate the whole votium repo into one single json. can be called manually or hook that runs it whenever the repo is committed to
 
-1. python backend script [`build_api_json`](scripts/build_api_json.py) consolidates the whole votium repo into one single json
+2. host json on the graph's decentralised network (or permissioned central host)
 
-2. host json on the graph network (or permissioned central host)
+3. a contract can now call this api endpoint via chainlink functions, to grab the claims object for its own address
 
-2. cl funcs calls this api endpoint and grabs claims object for its own address
+4. it can then call `MultiMerkleStash.claimMulti(address(this), claims)` and receive rewards
 
-3. it can now call `MultiMerkleStash.claimMulti(address(this), claims)`
+5. the whole process of claiming votium bribes is now possible on-chain!
 
-4. profit
+6. profit
 
 ## SUBGRAPH
 
