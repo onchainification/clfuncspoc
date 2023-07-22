@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "3.10.10"
 eth-brownie = "^1.19.3"
+rich = "^13.4.2"
 
 [tool.poetry.group.dev.dependencies]
 black = "^22.10.0"
