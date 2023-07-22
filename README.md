@@ -38,10 +38,11 @@ yarn codegen && yarn build
 yarn lfg
 ```
 
-### url
-https://thegraph.com/hosted-service/subgraph/onchainification/json-subgraph-poc
-
+### urls
+- https://thegraph.com/hosted-service/subgraph/onchainification/json-subgraph-poc
+- https://testnet.thegraph.com/explorer/subgraphs/GEWddKhHEf7tASNRoLzJSEopTv5woSGzQMxijVyBRBFk
 
 ## REFERENCES
 - https://docs.chain.link/chainlink-functions
+- https://github.com/smartcontractkit/functions-hardhat-starter-kit
 - https://github.com/GalloDaSballo/vested-cvx
