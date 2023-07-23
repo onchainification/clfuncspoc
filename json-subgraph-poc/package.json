@@ -5,7 +5,7 @@
     "codegen": "graph codegen",
     "build": "graph build",
     "deploy": "graph deploy --product hosted-service onchainification/json-subgraph-poc",
-    "lfg": "graph codegen && graph build && graph deploy --product hosted-service onchainification/json-subgraph-poc"
+    "lfg": "graph codegen && graph build && graph deploy --product hosted-service onchainification/json-subgraph-poc && graph deploy --studio json-subgraph-poc"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "*",
