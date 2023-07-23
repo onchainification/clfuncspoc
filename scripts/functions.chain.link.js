@@ -20,6 +20,4 @@ const request = {
   const response = await Functions.makeHttpRequest(request)
   console.log(JSON.stringify(response, null, 2))
 
-  return Functions.encodeString(response.data.data.claimParam.index)
-
-  return Functions.encodeUint256(response.data.data.claimParam.index)
+  return Functions.encodeString(response.data.data.claimParam.amount)
