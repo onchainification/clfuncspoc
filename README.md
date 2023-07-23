@@ -14,6 +14,16 @@
 
 6. profit
 
+## IPFS
+
+- JSON pinned: https://yellow-tremendous-unicorn-876.mypinata.cloud/ipfs/QmPGaCaQGNmDy3ZxqiunH5QRouG7bszjRfR9PD6B8mZYoy
+- mirrored at https://www.jsonkeeper.com/b/OAMF and https://api.jsonbin.io/v3/b/64bca30c8e4aa6225ec21591/latest
+
+## CHAINLINK FUNCTIONS
+
+- `Hornet` on Sepolia: `0xac883736469DFDb13615B0C585B7f35182ACd267`
+- successful retrieval (`DataFullfilled`) of a float on ipfs: https://sepolia.etherscan.io/address/0x2326F5b15Aa56ce81c2e8b4B8c4d38470A852455#events (from [here](https://ipfs.io/ipfs/QmdTPZR4zfGj2QgfHE2gPZXJkR5qHtghGAytEwaiF3x8FE), path `media -> size`)
+
 ## SUBGRAPH
 
 - this subgraph acts as a decentralised, open source alternative to solutions that host json files as api endpoints (eg jsonbin.io, jsonkeeper.com)
@@ -45,6 +55,7 @@ yarn lfg
 ## REFERENCES
 - https://docs.chain.link/chainlink-functions
 - https://github.com/smartcontractkit/functions-hardhat-starter-kit
+- https://app.pinata.cloud/pinmanager
 - https://github.com/GalloDaSballo/vested-cvx
 
 ![DALL·E 2023-07-23 00 28 48](https://github.com/onchainification/clfuncspoc/assets/2835259/ba8d7844-1b5b-44ad-a481-62a003a80a27)
