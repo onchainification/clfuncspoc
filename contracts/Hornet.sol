@@ -34,13 +34,12 @@ contract Hornet is ChainlinkClient {
             this.fulfill.selector
         );
 
-        // Set the URL to perform the GET request on
+        // Set the URL to perform the GET request on and define the path
         request.add(
             "get",
-            "https://ipfs.io/ipfs/QmXhHY63grvCCyg6CEkCiNcyTCKxLHCF5kgLWDcYXhQr1E"
+            "https://yellow-tremendous-unicorn-876.mypinata.cloud/ipfs/QmPGaCaQGNmDy3ZxqiunH5QRouG7bszjRfR9PD6B8mZYoy"
         );
-
-        request.add("path", "0x9538D438d506Fc426dB37fb83daC2a0752A02757,index");
+        request.add("path", "index");
 
         // Sends the request
         return sendChainlinkRequestTo(oracle, request, fee);

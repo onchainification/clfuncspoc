@@ -1,6 +1,27 @@
 autofetch_sources: True
 
 networks:
-  default: mainnet-fork
+  default: sepolia-fork #mainnet-fork
 
 dotenv: .env
+
+compiler:
+  solc:
+    remappings:
+      - "@chainlink=smartcontractkit/chainlink-brownie-contracts@0.6.1"
+dependencies:
+  - smartcontractkit/chainlink-brownie-contracts@0.6.1
+
+networks:
+  sepolia:
+    eth_usd_price_feed: "0x694AA1769357215DE4FAC081bf1f309aDC325306"
+    fee: 100000000000000000
+    fund_amount: 5000000000000000000
+    jobId: ca98366cc7314957b8c012c72f05aeeb
+    link_token: "0x779877A7B0D9E8603169DdbD7836e478b4624789"
+    oracle: "0x6090149792dAAeE9D1D568c9f9a6F6B46AA29eFD"
+    subscription_id: 20
+    verify: true
+
+accounts:
+  eoa1: "onchainification_eoa1"
